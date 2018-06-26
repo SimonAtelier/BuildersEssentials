@@ -6,7 +6,7 @@ version: 0.0.0
 depend: []
 softdepend: []
 commands:
-  cc:
+  bes:
     description:
     usage: /<command>
     permission:
