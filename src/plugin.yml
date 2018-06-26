@@ -1,5 +1,5 @@
-name: CreativeCrewEssentials
-main: main.CreativeCrewEssentials
+name: BuildersEssentials
+main: main.BuildersEssentials
 authors:
 website: "https://github.com/SimonAtelier"
 version: 0.0.0

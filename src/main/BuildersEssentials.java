@@ -21,10 +21,11 @@ import usecases.executecommand.ExecuteCommandPresenter;
 import usecases.executecommand.ExecuteCommandUseCase;
 import usecases.executecommand.ExecuteCommandView;
 import usecases.executecommand.ExecuteCommandViewImpl;
+import usecases.executecommand.RootCommandLabel;
 import usecases.togglenightvision.ToggleNightVisionCommand;
 import view.MessageViewImpl;
 
-public class CreativeCrewEssentials extends JavaPlugin implements Listener {
+public class BuildersEssentials extends JavaPlugin implements Listener {
 
 	@Override
 	public void onEnable() {
@@ -40,7 +41,7 @@ public class CreativeCrewEssentials extends JavaPlugin implements Listener {
 	}
 	
 	private void registerCommandExecutors() {		
-		getCommand("cc").setExecutor(this);
+		getCommand(RootCommandLabel.ROOT_COMMAND_LABEL).setExecutor(this);
 		Context.commandGateway.registerCommand(new ChangeSpeedCommand());
 		Context.commandGateway.registerCommand(new ToggleNightVisionCommand());
 	}
