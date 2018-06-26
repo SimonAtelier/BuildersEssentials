@@ -1,0 +1,12 @@
+name: CreativeCrewEssentials
+main: main.CreativeCrewEssentials
+authors:
+website: "https://github.com/SimonAtelier"
+version: 0.0.0
+depend: []
+softdepend: []
+commands:
+  cc:
+    description:
+    usage: /<command>
+    permission:
